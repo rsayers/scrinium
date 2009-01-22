@@ -1,0 +1,14 @@
+Scrinium - An ebook reader for net-connected phones
+-----------------------
+
+* About
+
+I hacked this together several years ago when I wanted to read a book on my phone.  I had unlimited data, a web browser but no decent app for reading books. (Sidekick II if you are curious)
+
+Now I'm using a Blackberry Pearl and find that existing ebook readers for the platform are lacking, so I'm dusting this off and using it again.  This app works simply by reading a directory of text files and allowing you to read them in an easy to view format.  This program will let you view a file one page at a time and bookmark your location.
+
+* Usage
+
+The program by default reads the current directory for anything with a .txt extension.  Changing this is easy, just follow the comments in the code. Create a subdirectory in your web space, upload the index.php and text files you wish to read.  Once that is done, simply go to that url and start reading.
+
+No security is provided by default,   placing the script in a directory not linked from anywhere should do the trick,  .htaccess voodoo will work if you are more paranoid.
